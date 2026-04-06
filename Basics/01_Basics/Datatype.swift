@@ -6,3 +6,16 @@
 
 let name:String="Kartik"
 print(name)
+
+var age:Int=20
+print(age)
+
+var isStudent:Bool=true
+print(isStudent)
+
+
+// auto detection of datatype is there in swift 
+
+var mark=290
+print(type(of:mark))
+print(mark)
