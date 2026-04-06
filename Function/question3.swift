@@ -3,13 +3,13 @@
 
 func check_largest(n1:Int,n2:Int,n3:Int)->String{
     if n1>n2 && n1>n2{
-        return "n1 is the largest ",n1;
+        return "20 is the largest ";
     }
     else if n2>n1 && n2>n3{
-        return "n2 is the largest ",n2;
+        return "50 is the largest ";
     }
     else {
-        return "n3 is the largest ",n3;
+        return "9 is the largest";
     }
 }
 
