@@ -26,8 +26,8 @@ print(name)
 
 
 // const 
-// .... const is used for a constant value whose value cannot change in future 
-const G=10
+// .... const is not valid in swift we use let instead of that 
+let G=10
 
 print(G)
 // change in the G
