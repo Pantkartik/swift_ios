@@ -15,7 +15,7 @@ print(isStudent)
 
 
 // auto detection of datatype is there in swift 
-
+// type check in swift is using type(of:__)
 var mark=290
 print(type(of:mark))
 print(mark)
