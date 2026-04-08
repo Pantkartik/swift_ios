@@ -26,3 +26,7 @@ print(sorted)
 var arr3=[90,28,4444,011,34,4]
 let sort=arr3.sorted{$0<$1}
 print(sort)
+
+
+
+// struct
