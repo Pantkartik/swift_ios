@@ -35,7 +35,14 @@ Connecting to the world.
 ### `Persistence/`
 Data storage solutions.
 - `SwiftData_Usage.swift`: Using the new SwiftData framework.
+- `SwiftData_Migrations.swift`: Schema versions and migration plans.
+- `SwiftData_Relationships.swift`: One-to-one, one-to-many, and many-to-many relationships.
 - `CoreData_Legacy.swift`: Maintenance and comparison.
+
+### `Accessibility/`
+Ensuring apps are inclusive.
+- `README.md`: Accessibility principles and tools.
+- `Accessibility_SwiftUI.swift`: Practical examples of labels, hints, and Dynamic Type.
 
 ### `Testing/`
 Ensuring code quality.

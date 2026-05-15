@@ -29,15 +29,15 @@ This document outlines the progress of this repository and upcoming learning obj
 ## 🚧 In Progress / Next
 
 ### SwiftData Deep Dive
-- [ ] Schema Migrations.
-- [ ] Complex Relationships.
+- [x] Schema Migrations.
+- [x] Complex Relationships.
 
 ### AI & Local Models
 - [ ] Local LLM Integration (CoreML / Llama.swift).
 - [ ] Advanced Vision tasks.
 
 ### User Experience
-- [ ] Accessibility (VoiceOver, Dynamic Type).
+- [x] Accessibility (VoiceOver, Dynamic Type).
 - [ ] Localization.
 
 ---
