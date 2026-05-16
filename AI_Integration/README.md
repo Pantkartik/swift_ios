@@ -16,5 +16,8 @@ High-performance image analysis and computer vision.
 ### SwiftUI Integration
 - `SwiftUI_AI_View.swift`: A complete view implementation that demonstrates real-time AI processing in a modern UI.
 
+### Local LLM Integration 🧠
+- `LocalLLM_Manager.swift`: A template for integrating Large Language Models locally using CoreML or `llama.cpp` bindings. Covers background inference and streaming response handling.
+
 ## 📦 Model Assets
-*Note: Large model files (.mlmodel / .mlpackage) are not included in this repository. You may need to download them separately from Apple's Model Gallery or provide your own.*
+*Note: Large model files (.mlmodel / .mlpackage / .gguf) are not included in this repository. You may need to download them separately from Apple's Model Gallery or Hugging Face.*
