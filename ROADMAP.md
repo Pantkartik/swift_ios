@@ -24,6 +24,11 @@ This document outlines the progress of this repository and upcoming learning obj
 - [x] **CI/CD**: GitHub Actions basics and advanced pipelines.
 - [x] **Distribution**: App Store preparation and deep dive.
 
+### Advanced Architecture & Features
+- [x] **Design Patterns**: VIPER, Clean Architecture.
+- [x] **App Clips**: Development and integration.
+- [x] **CloudKit Integration**: Data syncing and storage.
+
 ---
 
 ## 🚧 In Progress / Next
@@ -44,5 +49,4 @@ This document outlines the progress of this repository and upcoming learning obj
 
 ## 🎯 Future Goals
 - [ ] Advanced Performance Optimization (Instruments).
-- [ ] CloudKit Integration.
 - [ ] Multi-platform development (macOS, visionOS).
