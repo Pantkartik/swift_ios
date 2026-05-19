@@ -38,15 +38,15 @@ This document outlines the progress of this repository and upcoming learning obj
 - [x] Complex Relationships.
 
 ### AI & Local Models
-- [ ] Local LLM Integration (CoreML / Llama.swift).
-- [ ] Advanced Vision tasks.
+- [x] Local LLM Integration (CoreML / Llama.swift).
+- [x] Advanced Vision tasks.
 
 ### User Experience
 - [x] Accessibility (VoiceOver, Dynamic Type).
-- [ ] Localization.
+- [x] Localization.
 
 ---
 
 ## 🎯 Future Goals
-- [ ] Advanced Performance Optimization (Instruments).
-- [ ] Multi-platform development (macOS, visionOS).
+- [x] Advanced Performance Optimization (Instruments).
+- [x] Multi-platform development (macOS, visionOS).
