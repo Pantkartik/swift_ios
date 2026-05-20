@@ -4,33 +4,31 @@ Detailed breakdown of the repository's directory structure and the topics covere
 
 ## 📁 Root Directories
 
-### `Basics/`
-Foundational Swift concepts.
-- `01_Basics/`, `02_Basics/`: Stepped tutorials.
-- `PropertyWrappers.swift`: Introduction to @propertyWrapper.
-- `ResultBuilders_Basics.swift`: Introduction to @resultBuilder.
+### `Basics/`, `Optionals/`, `Closures/`, `Function/`, `Struct/`, `Enums/`, `Generics/`, `Protocols/`, `Extensions/`
+Core Swift language features and foundational concepts. Each directory contains self-contained tutorials, examples, and comprehensive README documentation.
 
 ### `Advanced_Swift/`
 Deeper dives into Swift language features.
 - `Property_Wrappers.swift`: Advanced usage and custom wrappers.
 - `Result_Builders.swift`: Complex DSL examples.
-- `Generics/`: Generic types and functions.
 
-### `AI_Integration/`
-Machine Learning and Artificial Intelligence on iOS.
+### `AI_Integration/` & `AdvancedVision/`
+Machine Learning, Vision, and Artificial Intelligence on iOS.
 - `CoreML_Advanced.swift`: Integrating complex ML models.
 - `VisionFramework_Basics.swift`: Image analysis and recognition.
 - `SwiftUI_AI_View.swift`: Bridging AI models with the UI.
+- `AdvancedVision/`: 3D tracking, body pose, and custom Vision requests.
 
 ### `Concurrency/`
 Modern Swift Concurrency.
 - `Async_Await.swift`: Basics of structured concurrency.
 - `Actors.swift`: Managing state in a concurrent environment.
 
-### `Networking/`
-Connecting to the world.
+### `Networking/` & `CloudKit/`
+Connecting to the world and syncing data.
 - `URLSession_Basics.swift`: Making HTTP requests.
 - `Combine_Networking.swift`: Reactive network layers.
+- `CloudKit/`: iCloud integration.
 
 ### `Persistence/`
 Data storage solutions.
@@ -53,6 +51,12 @@ Ensuring code quality.
 The path to the App Store.
 - GitHub Actions workflows.
 - Screenshots and Privacy metadata documentation.
+
+### `MultiPlatform/`
+Expanding beyond iOS.
+- Shared code strategies.
+- `macOS_Guide.swift`: Mac Catalyst and native macOS interactions.
+- `visionOS_Guide.swift`: Immersive spaces and spatial computing.
 
 ---
 
