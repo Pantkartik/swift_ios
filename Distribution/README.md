@@ -1,19 +1,39 @@
 # Distribution & App Store 🚀
 
-This section covers the essential steps for distributing your iOS applications and preparing them for the App Store.
+This section covers the essential steps for preparing, signing, testing, and submitting your iOS applications to the App Store.
 
-## 📌 Topics Covered
+## 📁 Documentation Guides
 
-- **App Store Preparation**: Creating app IDs, provisioning profiles, and certificates.
-- **App Store Connect**: Setting up your app record, managing TestFlight, and submitting for review.
-- **Metadata & Screenshots**: Best practices for app descriptions, keywords, privacy policy, and promotional images.
-- **Privacy**: Understanding App Tracking Transparency (ATT) and privacy nutrition labels.
-- **Review Guidelines**: Navigating the App Store Review Guidelines to avoid common rejection reasons.
+- 📘 [App Store Distribution Basics](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/App_Store_Distribution.md): Learn about Apple Developer Account requirements, signing certificates, provisioning profiles, archiving, and TestFlight.
+- 📙 [App Store Submission: Deep Dive](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/App_Store_Deep_Dive.md): Explore screenshot sizes, app review guidelines, common rejection reasons, metadata optimization, and versioning strategies.
+- 🛡️ [Privacy Manifests & Required Reason APIs](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/Privacy_Manifests.md): Learn how to implement `PrivacyInfo.xcprivacy` to satisfy Apple's strict privacy policy guidelines.
 
-## 🛠️ Tools & Processes
+---
 
-- **Xcode Organizer**: Archiving and uploading builds.
-- **TestFlight**: Distributing beta builds to internal and external testers.
-- **App Store Connect API**: Automating tasks related to app distribution.
+## 📌 Distribution Methods Comparison
 
-Make sure to review Apple's official documentation for the most up-to-date guidelines on app distribution.
+When sharing your app with testers and users, choose the method that matches your needs:
+
+| Method | Audience Limit | Review Required? | Expiration | Best For |
+|---|---|---|---|---|
+| **Development** | Up to 100 registered devices | No | 1 year (profiles expire) | Local debugging & active development |
+| **Ad-Hoc** | Up to 100 registered devices | No | 1 year (profiles expire) | Internal QA testing outside App Store Connect |
+| **TestFlight (Internal)** | Up to 100 team members | No | 90 days per build | Rapid internal testing within the development team |
+| **TestFlight (External)** | Up to 10,000 testers | Yes (Beta App Review) | 90 days per build | Large-scale public beta testing |
+| **App Store (Production)** | Unlimited | Yes (App Review) | Never | Public customer release |
+
+---
+
+## 🛠️ App Store Release Checklist
+
+Before submitting your app to Apple for final approval, ensure you have ticked all items below:
+
+- [ ] **App Icon**: 1024x1024px PNG with no transparency.
+- [ ] **Screenshots**: High-resolution screenshots for 6.5" iPhones, 5.5" iPhones, and 12.9" iPads.
+- [ ] **Privacy Policy URL**: A hosted website link stating your data handling policies.
+- [ ] **Privacy Manifest**: A `PrivacyInfo.xcprivacy` file containing required disclosures.
+- [ ] **Reviewer Demo Credentials**: A test account username and password if your app requires login.
+- [ ] **Contact Info**: Technical and marketing contact details.
+
+> [!TIP]
+> To automate these repetitive distribution tasks, check out the [DevOps Section](file:///Users/pantkartik/Ios_dev/swift_ios/DevOps/README.md) to set up Fastlane and CI/CD pipelines.
