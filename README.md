@@ -18,6 +18,10 @@ The repository is organized by topic. Here's a high-level overview:
 - **[Networking](./Networking)**: URLSession, REST APIs, and Combine.
 - **[Persistence](./Persistence)**: SwiftData and Core Data.
 - **[Testing](./Testing)**: Unit Testing, Mocking, and UI Testing.
+- **[WidgetKit](./WidgetKit)**: Glancable home & lock screen widgets.
+- **[StoreKit](./StoreKit)**: In-App Purchases and subscription flows using StoreKit 2.
+- **[MapKit](./MapKit)**: Declarative map visualization, search, and routing.
+- **[SwiftCharts](./SwiftCharts)**: Graphical representation of data using Swift Charts.
 
 For a detailed breakdown, see [STRUCTURE.md](./STRUCTURE.md).
 
