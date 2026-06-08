@@ -58,6 +58,26 @@ Expanding beyond iOS.
 - `macOS_Guide.swift`: Mac Catalyst and native macOS interactions.
 - `visionOS_Guide.swift`: Immersive spaces and spatial computing.
 
+### `WidgetKit/`
+Home screen widget design and extension timelines.
+- `README.md`: Timeline providers, entries, and refresh budgets.
+- `WidgetKit_Example.swift`: Implementation showing dynamic small, medium, and lock screen widgets.
+
+### `StoreKit/`
+In-App Purchases and store integrations.
+- `README.md`: Products, subscriptions, transaction validation, and updates.
+- `StoreKit_Example.swift`: StoreManager using StoreKit 2 and shop view interface.
+
+### `MapKit/`
+Declarative map integration.
+- `README.md`: Modern SwiftUI Map components, annotations, and camera bindings.
+- `MapKit_Example.swift`: Code showing search, custom annotations, and route lines.
+
+### `SwiftCharts/`
+Declarative data visualization.
+- `README.md`: Concept of Marks, customization, scales, and selection.
+- `SwiftCharts_Example.swift`: Interactive bar/line chart using drag selections.
+
 ---
 
 ## 🛠️ File Naming Conventions

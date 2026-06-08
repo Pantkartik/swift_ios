@@ -18,6 +18,10 @@ This document outlines the progress of this repository and upcoming learning obj
 - [x] **Networking**: URLSession and API integration.
 - [x] **Persistence**: SwiftData basics.
 - [x] **CoreML**: Advanced model usage.
+- [x] **WidgetKit**: Home screen widgets and configuration timelines.
+- [x] **StoreKit**: Modern In-App Purchase flows with StoreKit 2.
+- [x] **MapKit**: Declarative maps, custom annotations, and routing.
+- [x] **SwiftCharts**: Graphical visualization and data plots.
 
 ### DevOps & Testing
 - [x] **Unit Testing**: XCTest and Mocking.
