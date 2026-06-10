@@ -1,35 +1,25 @@
-// all the concept in swift are same as the javascript and python mixture 
+// Swift Basics: Variables, Constants, and Printing
 
+// 1. Constants (let)
+// Constants are declared using 'let'. Once assigned, their value cannot be changed.
+let age = 20
+print("age") // Prints the literal string "age"
+print(age)   // Prints the value of the constant: 20
 
-// declaration of the variable is used by let const and var 
+// 2. Variables (var)
+// Variables are declared using 'var' and their values can be modified later.
+var name = "Kartik"
+print(name) // Prints "Kartik"
 
+// Modifying the variable value
+name = "Pant"
+print(name) // Prints "Pant"
 
-// let 
-// ....  let is used for a constant value 
-let age=20
+// 3. Constants vs Variables
+// In Swift, 'const' is not a valid keyword. We use 'let' instead of 'const'.
+let gravity = 9.8
+print(gravity)
 
-print("age") // only prints the age word not the number 
-print(age)
-
-
-
-
-// var 
-// ....  var is used for that datatype which can change it like variable 
-var name="Kartik"
-print(name)
-// change in the name 
-name="Pant"
-print(name)
-
-
-
-
-// const 
-// .... const is not valid in swift we use let instead of that 
-let G=10
-
-print(G)
-// change in the G
-G=50
-print(G) // not possible variable G is constant
+// The line below is commented out because it causes a compile-time error:
+// "Cannot assign to value: 'gravity' is a 'let' constant"
+// gravity = 10.0
