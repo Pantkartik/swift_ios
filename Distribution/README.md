@@ -7,6 +7,8 @@ This section covers the essential steps for preparing, signing, testing, and sub
 - 📘 [App Store Distribution Basics](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/App_Store_Distribution.md): Learn about Apple Developer Account requirements, signing certificates, provisioning profiles, archiving, and TestFlight.
 - 📙 [App Store Submission: Deep Dive](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/App_Store_Deep_Dive.md): Explore screenshot sizes, app review guidelines, common rejection reasons, metadata optimization, and versioning strategies.
 - 🛡️ [Privacy Manifests & Required Reason APIs](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/Privacy_Manifests.md): Learn how to implement `PrivacyInfo.xcprivacy` to satisfy Apple's strict privacy policy guidelines.
+- 🔑 [Code Signing & Troubleshooting](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/Code_Signing_Troubleshooting.md): Understand keys, certificates, App IDs, and provisioning profiles, with diagnostic tips for Xcode errors.
+- ✈️ [TestFlight & Beta Testing](file:///Users/pantkartik/Ios_dev/swift_ios/Distribution/TestFlight_Beta_Testing.md): Step-by-step setup for internal and external beta testing, managing public links, and gathering tester feedback.
 
 ---
 
